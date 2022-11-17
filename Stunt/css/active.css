@@ -1,0 +1,243 @@
+/*Логотип анимация*/
+ .logo img:hover {
+    transform: scale(-1.8);  
+    /*transform: skew(30deg);   -искажение-*/
+    transform: rotate(-45deg) scale(1.5); /*поворот и увеличение*/
+    transition-duration: 3s;  /*переходы-вращение 3 секунды*/
+}
+/*верхнее меню-цвет кнопок при наведении*/
+.site-menu a:hover, .footer-menu a:hover{
+    color: #3C4CDB;
+    }
+    .site-menu a:active, .footer-menu a:active{
+        color: #79747A;
+    }
+    /*ионоки при наведении*/
+
+    .contact-menu img {
+        position:absolute; /* абсолютное позиционирование*/
+        left: 0px; /* выравниваем картинки по левому верхнему углу div-а*/
+        top: 0px; /* выравниваем картинки по левому верхнему углу div-а */    
+    }
+/*корзина*/
+    .contact-menu .icon-Cart img.first { /* первая картинка полностью прозрачная */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+    .contact-menu .icon-Cart:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+        opacity:1;
+        filter:alpha (opacity=100);
+        transform: scale(1.1);
+    }
+    .contact-menu .icon-Cart:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+/*лайк*/
+.contact-menu .icon-like img.first { /* первая картинка полностью прозрачная */
+    opacity:0;
+    filter:alpha (opacity=0);
+}
+.contact-menu .icon-like:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+    opacity:1;
+    filter:alpha (opacity=100);
+    transform: scale(1.1);
+}
+.contact-menu .icon-like:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+    opacity:0;
+    filter:alpha (opacity=0);
+}
+/*кабынет*/
+.contact-menu .icon-Personal img.first { /* первая картинка полностью прозрачная */
+    opacity:0;
+    filter:alpha (opacity=0);
+}
+.contact-menu .icon-Personal:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+    opacity:1;
+    filter:alpha (opacity=100);
+    transform: scale(1.1);
+}
+.contact-menu .icon-Personal:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+    opacity:0;
+    filter:alpha (opacity=0);
+}
+    /*стрелки на слайдере*/
+    .slider-left img:hover{
+        transform: scale(1.1); /*увеличение при наведении*/
+    }
+    .arrow-right img:hover{
+        transform: scale(1.1);
+    }
+    .icon-Group :hover {
+        transform: scale(-1.8);  
+        transform: rotate(45deg) scale(1); 
+        transition-duration: 3s;  
+        transform: scale(-0.8);  
+        transform: rotate(-45deg) scale(0.5); /*поворот и увеличение*/
+        transition-duration: 3s;  /*переходы-вращение 3 секунды*/
+    }
+    .icon-Group2 :hover {
+        transform: scale(-0.8);  
+        transform: rotate(-45deg) scale(0.5); /*поворот и увеличение*/
+        transition-duration: 3s;  /*переходы-вращение 3 секунды*/
+    }
+    .points1 :hover {
+        transform: scale(1.1);
+    }
+    .points2 :hover {
+        transform: scale(1.1);
+    }
+    .points3 :hover {
+        transform: scale(1.1);
+    }
+    /*Лайк в круге*/
+    .Card-1 img {
+        position:absolute; /* абсолютное позиционирование*/
+        left: 0px; /* выравниваем картинки по левому верхнему углу div-а*/
+        top: 0px; /* выравниваем картинки по левому верхнему углу div-а */    
+    }
+    .Card-1 img.first { /* первая картинка полностью прозрачная */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+    .Card-1:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+        opacity:1;
+        filter:alpha (opacity=100);
+        transform: scale(1.1);
+      }
+    .Card-1:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+        opacity:0;
+        filter:alpha (opacity=0);
+      }
+
+    .Card-2 img {
+        position:absolute; /* абсолютное позиционирование*/
+        left: 0px; /* выравниваем картинки по левому верхнему углу div-а*/
+        top: 0px; /* выравниваем картинки по левому верхнему углу div-а */    
+    }
+    .Card-2 img.first { /* первая картинка полностью прозрачная */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+    .Card-2:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+        opacity:1;
+        filter:alpha (opacity=100);
+        transform: scale(1.1);
+      }
+    .Card-2:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+        opacity:0;
+        filter:alpha (opacity=0);
+      }
+    .Card-3 img {
+        position:absolute; /* абсолютное позиционирование*/
+        left: 0px; /* выравниваем картинки по левому верхнему углу div-а*/
+        top: 0px; /* выравниваем картинки по левому верхнему углу div-а */    
+    }
+    .Card-3 img.first { /* первая картинка полностью прозрачная */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+    .Card-3:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+        opacity:1;
+        filter:alpha (opacity=100);
+        transform: scale(1.1);
+      }
+    .Card-3:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+        opacity:0;
+        filter:alpha (opacity=0);
+      }
+      .Card-4 img {
+        position:absolute; /* абсолютное позиционирование*/
+        left: 0px; /* выравниваем картинки по левому верхнему углу div-а*/
+        top: 0px; /* выравниваем картинки по левому верхнему углу div-а */    
+    }
+    .Card-4 img.first { /* первая картинка полностью прозрачная */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+    .Card-4:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+        opacity:1;
+        filter:alpha (opacity=100);
+        transform: scale(1.1);
+      }
+    .Card-4:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+        opacity:0;
+        filter:alpha (opacity=0);
+      }
+      .Card-5 img {
+        position:absolute; /* абсолютное позиционирование*/
+        left: 0px; /* выравниваем картинки по левому верхнему углу div-а*/
+        top: 0px; /* выравниваем картинки по левому верхнему углу div-а */    
+    }
+    .Card-5 img.first { /* первая картинка полностью прозрачная */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+    .Card-5:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+        opacity:1;
+        filter:alpha (opacity=100);
+        transform: scale(1.1);
+      }
+    .Card-5:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+        opacity:0;
+        filter:alpha (opacity=0);
+      }
+      .Card-6 img {
+        position:absolute; /* абсолютное позиционирование*/
+        left: 0px; /* выравниваем картинки по левому верхнему углу div-а*/
+        top: 0px; /* выравниваем картинки по левому верхнему углу div-а */    
+    }
+    .Card-6 img.first { /* первая картинка полностью прозрачная */
+        opacity:0;
+        filter:alpha (opacity=0);
+    }
+    .Card-6:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+        opacity:1;
+        filter:alpha (opacity=100);
+        transform: scale(1.1);
+      }
+    .Card-6:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+        opacity:0;
+        filter:alpha (opacity=0);
+      }
+/**/
+    .btn-1 :hover {
+        transform: scale(1.1);
+    }
+    .button-tr :hover {
+        transform: scale(1.1);
+    }
+    .open_button:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(1px 1px 1px #ffffff);
+        color:#676980;
+    }
+   
+    
+    .company :hover {
+        transform: scale(1.1);
+    }
+    .services :hover {
+        transform: scale(1.1);
+    }
+    .calls :hover {
+        transform: scale(1.1);
+    }
+    .logo2 :hover {
+        transform: scale(-1.2);  
+        transform: rotate(-45deg) scale(1.3);
+        transition-duration: 3s;
+    }
+    /*нижнее меню-цвет кнопок при наведении*/
+    .site-menufooter a:hover, .footer-menu a:hover{
+        color: #3C4CDB;
+        }
+        .site-menufooter a:active, .footer-menu a:active{
+            color: #79747A;
+        }
+        .telegramm :hover {
+            transform: scale(1.1);
+        }
+        .vk :hover {
+            transform: scale(1.1);
+        }
